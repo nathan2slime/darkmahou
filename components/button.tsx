@@ -7,7 +7,7 @@ import { tv } from 'tailwind-variants'
 type Props = HTMLMotionProps<'button'> & {}
 
 const variant = tv({
-  base: 'clip-base bg-tsu-love rounded-xl text-tsu-love-foreground font-semibold px-3 w-fit text-base h-10 py-2'
+  base: 'clip-base bg-tsu-iris rounded-xl text-tsu-iris-foreground font-semibold px-3 w-fit text-base h-10 py-2'
 })
 
 export const Button = ({ className, ...props }: Props) => {
